@@ -393,22 +393,22 @@ pricing-button.is-featured {
     grid-row: 6/11;
 }
 
-item-10 {
+.item-10 {
     grid-row: 6/7;
 }
 
-item-11 {
+.item-11 {
     grid-row: 6/9;
 }
 
-item-12 {
+.item-12 {
     grid-row: 7/12;
 }
 
-item-13 {
+.item-13 {
     grid-row: 9/13;
 }
 
-item-14 {
+.item-14 {
     grid-row: 11/13;
 }
