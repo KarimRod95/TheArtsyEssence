@@ -78,10 +78,6 @@ header {
     font-size: 20px;
 }
 
-.topNav {
-    position: sticky;
-    top: 0;
-}
 
 .topNav li {
     display: inline-block;
@@ -117,8 +113,32 @@ button:hover {
     background-color: rgba(231, 111, 81, 0.8);
 }
 
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #e1f1ff;
+}
+
 #bootstrap {
     display: none;
+}
+
+/* *HOME PAGE */
+.img-carousel {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-control-next:hover {
+    background-color: black;
+    transition: all 0.01s;
+    opacity: 0.075;
+}
+
+.carousel-control-prev:hover {
+    background-color: black;
+    transition: all 0.01s;
+    opacity: 0.075;
 }
 
 /* * CONTACT PAGE  */
@@ -138,11 +158,6 @@ button:hover {
 
 button:hover {
     background-color: rgba(251, 111, 81, 0.8);
-}
-
-.mainContainer {
-    text-align: center;
-    margin-bottom: 2em;
 }
 
 
