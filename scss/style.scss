@@ -82,22 +82,24 @@ header {
 	padding: 30px 5%;
 	font-family: 'Teko', sans-serif;
 	font-size: 20px;
-}
-.topNav {
-	li {
-		display: inline-block;
-		margin: 9px;
-		a {
-			text-decoration: none;
-			text-transform: uppercase;
-			transition: all 0.3s ease 0s;
-			color: #edede9;
-			&:hover {
-				color: #e76f51;
+
+	.topNav {
+		li {
+			display: inline-block;
+			margin: 9px;
+			a {
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: all 0.3s ease 0s;
+				color: #edede9;
+				&:hover {
+					color: #e76f51;
+				}
 			}
 		}
 	}
 }
+
 button {
 	padding: 10px 15px;
 	background-color: rgba(231, 111, 81, 1);

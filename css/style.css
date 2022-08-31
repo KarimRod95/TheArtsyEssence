@@ -78,17 +78,16 @@ header {
   padding: 30px 5%;
   font-family: 'Teko', sans-serif;
   font-size: 20px; }
-
-.topNav li {
-  display: inline-block;
-  margin: 9px; }
-  .topNav li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.3s ease 0s;
-    color: #edede9; }
-    .topNav li a:hover {
-      color: #e76f51; }
+  header .topNav li {
+    display: inline-block;
+    margin: 9px; }
+    header .topNav li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 0.3s ease 0s;
+      color: #edede9; }
+      header .topNav li a:hover {
+        color: #e76f51; }
 
 button {
   padding: 10px 15px;
