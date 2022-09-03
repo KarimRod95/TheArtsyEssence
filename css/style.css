@@ -1,20 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Teko&display=swap";
-/* * LANDING PAGE */
-/* * LANDING PAGE ENDS HERE  */
-/* * PAGES START HERE  */
-/* *HOME PAGE */
-/* *HOME PAGE ENDS HERE */
-/* * CONTACT PAGE  */
-/* *CONTACT PAGE ENDS HERE */
-/* *SESSION PAGE STARTS HERE */
-/* *SESSION PAGE ENDS HERE */
-/* *WORK PAGE STARTS HERE */
-/* Title */
-/* !GRIDS WORK */
-/* *Grid imgs */
-/* *Grid items */
-/* *WORK PAGE ENDS HERE */
-/* *ABOUT PAGE STARTS HERE */
 * {
   margin: 0;
   padding: 0; }
@@ -28,6 +12,24 @@ body {
   width: 100%;
   height: 100%;
   background: #354F52; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px; }
+  header .topNav li {
+    display: inline-block;
+    margin: 9px; }
+    header .topNav li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 0.3s ease 0s;
+      color: #edede9; }
+      header .topNav li a:hover {
+        color: #e76f51; }
 
 .b1 {
   width: 100%;
@@ -71,24 +73,6 @@ body {
       background-color: #f9f3f4;
       transition: 0.2s ease; }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 5%;
-  font-family: 'Teko', sans-serif;
-  font-size: 20px; }
-  header .topNav li {
-    display: inline-block;
-    margin: 9px; }
-    header .topNav li a {
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: all 0.3s ease 0s;
-      color: #edede9; }
-      header .topNav li a:hover {
-        color: #e76f51; }
-
 button {
   padding: 10px 15px;
   background-color: #e76f51;
@@ -101,8 +85,7 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s; }
   button:hover {
-    background-color: rgba(231, 111, 81, 0.8);
-    background-color: rgba(251, 111, 81, 0.8); }
+    background-color: rgba(231, 111, 81, 0.8); }
 
 .title {
   text-align: center;
@@ -151,7 +134,7 @@ button {
   background-color: #354F52;
   transition: all 0.3s ease 0s; }
   .subb:hover {
-    background-color: rgba(251, 111, 81, 0.8); }
+    background-color: rgba(231, 111, 81, 0.8); }
 
 .resb {
   cursor: pointer;
@@ -160,7 +143,7 @@ button {
   background-color: #354F52;
   transition: all 0.3s ease 0s; }
   .resb:hover {
-    background-color: rgba(251, 111, 81, 0.8); }
+    background-color: rgba(231, 111, 81, 0.8); }
 
 #contactUs {
   text-align: center;

@@ -1,0 +1,30 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: #354F52;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 5%;
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
+
+	.topNav {
+		li {
+			display: inline-block;
+			margin: 9px;
+			a {
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: all 0.3s ease 0s;
+				color: #edede9;
+				&:hover {
+					color: #e76f51;
+				}
+			}
+		}
+	}
+}
