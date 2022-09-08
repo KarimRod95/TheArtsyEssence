@@ -127,6 +127,9 @@ button {
 .dark-teal-text {
   color: #004d40; }
 
+.lead {
+  color: #f9f3f4; }
+
 .subb {
   cursor: pointer;
   padding: 10px 15px;
@@ -353,3 +356,6 @@ pricing-button.is-featured {
     display: none; }
   .contact {
     display: none; } }
+
+.btn-info2 {
+  background-color: #e76f51; }
