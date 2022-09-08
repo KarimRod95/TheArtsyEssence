@@ -22,7 +22,7 @@ header {
   font-size: 20px; }
   header .topNav li {
     display: inline-block;
-    margin: 9px; }
+    margin: 20px; }
     header .topNav li a {
       text-decoration: none;
       text-transform: uppercase;
@@ -356,6 +356,3 @@ pricing-button.is-featured {
     display: none; }
   .contact {
     display: none; } }
-
-.btn-info2 {
-  background-color: #e76f51; }
