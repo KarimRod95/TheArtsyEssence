@@ -38,7 +38,8 @@ header {
   justify-content: space-between;
   color: #FFF;
   height: 100px;
-  padding: 1em; }
+  padding: 1em;
+  margin-bottom: 50px; }
 
 .menu {
   display: flex;
