@@ -459,6 +459,8 @@ pricing-button.is-featured {
     display: none; }
   .logo {
     display: none; }
+  .logo-mobile {
+		height: 4rem; }
   .contact {
     display: none; }
   .menu-button-container {
